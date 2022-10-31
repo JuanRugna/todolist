@@ -49,7 +49,7 @@ const handleTodoAdd= () => {
         <h1 className="titulo">TO DO LIST</h1>
             <div className="container">
                 <TodoList todos={todos} toggleTodo={toggleTodo}/>
-                <input ref={todoTaskRef} type='text' name="inputTarea" className="inputTarea"></input>
+                <input ref={todoTaskRef} type='text' name="inputTarea" className="inputTarea" placeholder="Ingrese una tarea"></input>
                 <br></br>
                 <div className="wrapper">
                 <button onClick={handleTodoAdd} className="btn-hover color-1" id="botonAgregar">Agregar tarea</button>
