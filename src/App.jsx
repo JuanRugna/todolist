@@ -51,8 +51,10 @@ const handleTodoAdd= () => {
                 <TodoList todos={todos} toggleTodo={toggleTodo}/>
                 <input ref={todoTaskRef} type='text' name="inputTarea" className="inputTarea"></input>
                 <br></br>
+                <div className="wrapper">
                 <button onClick={handleTodoAdd} className="btn-hover color-1" id="botonAgregar">Agregar tarea</button>
                 <button onClick={handleClearAll} className="btn-hover color-2" id="botonBorrar">Eliminar completadas</button>
+                </div>
                 <div className="restantes">Te quedan {todos.filter((todo)=> !todo.completed).length} tareas por terminar</div>
             </div>
             </>
