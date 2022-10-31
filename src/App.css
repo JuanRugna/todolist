@@ -7,7 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(90deg, rgb(48, 16, 255) 0%, rgb(100, 115, 255) 100%);
+  background: #1b1b32;
 }
 
 ul {
@@ -100,7 +100,7 @@ ul {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   height: auto;
   min-height: 31.25em;
   max-width: 50em;
@@ -109,6 +109,7 @@ ul {
   border-radius: 1em;
   margin: auto;
   margin-top: 1%;
+  box-shadow: inset 10px 10px 15px rgba(70, 70, 70, 0.12);
 }
 
 .restantes {
